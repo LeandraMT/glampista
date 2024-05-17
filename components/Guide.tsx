@@ -28,7 +28,7 @@ const Guide = () => {
 
             <div className="flexCenter max-container relative w-full">
                 <Image
-                    src="/paddle-board.jpg"
+                    src="/boards.jpg"
                     alt="boat"
                     width={1440}
                     height={500}
@@ -55,7 +55,7 @@ const Guide = () => {
                                 </p>
                             </div>
                             <p className="bold-20 mt-2">
-                                El Retiro BubbleSky
+                                Cascada Tequendamita
                             </p>
                         </div>
 
@@ -64,7 +64,7 @@ const Guide = () => {
                                 Start track
                             </p>
                             <h4 className="bold-20 mt-2 whitespace-nowrap">
-                                Cascada Tequendamita
+                                Plaza Central
                             </h4>
                         </div>
                     </div>

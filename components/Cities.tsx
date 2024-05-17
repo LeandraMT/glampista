@@ -25,8 +25,8 @@ const CitySite = ({ backgroundImage, title, subtitle, peopleJoined }:
                         />
                     </div>
                     <div className="flex flex-col gap-1">
-                        <h4 className="bold-18 text-white">{title}</h4>
-                        <p className="regular-14 text-white">{subtitle}</p>
+                        <h4 className="bold-18 text-grey-90">{title}</h4>
+                        <p className="regular-14 text-gray-50">{subtitle}</p>
                     </div>
                 </div>
 
@@ -59,14 +59,32 @@ const Cities = () => {
             justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
                 <CitySite
                     backgroundImage="bg-bg-img-1"
-                    title="Bosko Glamping"
-                    subtitle="Guatapé"
+                    title="Valle del Cocora"
+                    subtitle="Salento"
                     peopleJoined="50+ Joined"
                 />
                 <CitySite
                     backgroundImage="bg-bg-img-2"
-                    title="El Retiro Glamping"
-                    subtitle="Alto Palmas, Antioquia"
+                    title="Vista del Penol"
+                    subtitle="Guatapé"
+                    peopleJoined="80+ Joined"
+                />
+                <CitySite
+                    backgroundImage="bg-bg-img-3"
+                    title="Colourful Houses"
+                    subtitle="Guatapé"
+                    peopleJoined="80+ Joined"
+                />
+                <CitySite
+                    backgroundImage="bg-bg-img-4"
+                    title="Xielo SkyDive"
+                    subtitle="Medellín"
+                    peopleJoined="80+ Joined"
+                />
+                <CitySite
+                    backgroundImage="bg-bg-img-5"
+                    title="Playa de Sabanilla"
+                    subtitle="Barranquilla"
                     peopleJoined="80+ Joined"
                 />
             </div>

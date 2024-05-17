@@ -22,7 +22,7 @@ const GetApp = () => {
                             type="button"
                             title="Download in Play Store"
                             icon="/android.png"
-                            variant="btn_dark_green_outline"
+                            variant="btn_white"
                             full
                         />
                     </div>

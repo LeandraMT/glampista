@@ -8,6 +8,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        primary_white: {
+          50: '#F7F7F7'
+        },
         green: {
           50: '#436850',
           90: '#12372A',
@@ -30,11 +33,14 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'bg-img-1': "url('/city-site-1.jpg')",
-        'bg-img-2': "url('/city-site-2.jpeg')",
+        'bg-img-1': "url('/colombia-1.jpg')",
+        'bg-img-2': "url('/colombia-2.jpg')",
+        'bg-img-3': "url('/colombia-3.jpg')",
+        'bg-img-4': "url('/colombia-4.jpg')",
+        'bg-img-5': "url('/colombia-5.jpg')",
         'feature-bg': "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
-        'pattern-2': "url('/pattern-bg.png')",
+        'pattern-2': "url('/feature-bg.png')",
       },
       screens: {
         xs: '400px',
